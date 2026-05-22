@@ -1,5 +1,7 @@
-# Black-Scholes-Monte-Carlo-Risk-Framework
-VaR Backtesting &amp; Basel III Risk Framework | Python  Implemented Historical, Parametric, and Monte Carlo VaR on a 750-day simulated portfolio; applied Basel III Traffic Light test and Kupiec POF test for model validation Computed CVaR (Expected Shortfall) at multiple confidence levels, demonstrating FRTB-aligned risk measurement
+Options Pricing: Black-Scholes vs Monte Carlo | Python
+
+Implemented closed-form Black-Scholes pricing and Monte Carlo GBM simulation (100k paths) for European options; demonstrated convergence to within $0.012 of analytical price
+Computed all 5 Greeks and verified Put-Call Parity to zero arbitrage error across parameter scenarios
 # Options Pricing: Black-Scholes vs Monte Carlo Simulation
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
